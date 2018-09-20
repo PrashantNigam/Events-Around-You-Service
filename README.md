@@ -139,8 +139,55 @@
             Example: 
 	    
                     {
-                        "message": "Sucess"
-                    }
+			    "name": "The Birth of Queen Naija Tour",
+			    "type": "event",
+			    "dates": {
+				"start": {
+				    "localDate": "2018-11-01",
+				    "localTime": "20:00:00",
+				    "dateTime": "2018-11-02T00:00:00Z",
+				    "dateTBD": false,
+				    "dateTBA": false,
+				    "timeTBA": false,
+				    "noSpecificTime": false
+				},
+				"timezone": "America/New_York",
+				"status": {
+				    "code": "onsale"
+				},
+				"spanMultipleDays": false
+			    },
+			    "info": "The Underground Is A General Admission Standing Room Only Venue! Doors Open At 7pm & 
+			    Show Begins At 8pm! Ticket prices will increase the day of the show. All dates, acts, and ticket 
+			    prices subject to change without notice. All tickets are subject to applicable service fees via 
+			    all points of sale",
+			    "classifications": [
+				{
+				    "primary": true,
+				    "segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				    },
+				    "genre": {
+					"id": "KnvZfZ7vAee",
+					"name": "R&B"
+				    },
+				    "subGenre": {
+					"id": "KZazBEonSMnZfZ7vkIt",
+					"name": "R&B"
+				    },
+				    "type": {
+					"id": "KZAyXgnZfZ7v7nI",
+					"name": "Undefined"
+				    },
+				    "subType": {
+					"id": "KZFzBErXgnZfZ7v7lJ",
+					"name": "Undefined"
+				    },
+				    "family": false
+				}
+			    ]
+			}
 
             HTTP Code: 401
             Reason: authentication failure
