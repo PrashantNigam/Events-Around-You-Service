@@ -24,6 +24,7 @@
 
     2.1 /register
         Request Body:
+	
         {
             "email": "email@email.com",
             "password": "pass",
@@ -49,6 +50,7 @@
 
     2.2 /login
         Request Body:
+	
         {
             "email": "email@email.com",
             "password": "pass"
@@ -56,6 +58,7 @@
 
     2.3 /getEvents
         Request Body:
+	
         {
 	        "token": "auth_token"
     
@@ -63,6 +66,7 @@
 
     2.4 /setPreferences
         Request Body:
+	
         {		
             "token": "auth_token",
             "classifications": [
@@ -91,6 +95,7 @@
     3.1 /register
 
         Success:
+	
             HTTP Code: 201
             Example: 
                     {
@@ -114,14 +119,16 @@
     3.2 /login
             HTTP Code: 401
             Reason: authentication failure
-            Example: 
+            Example: 	 
+	    
                     {
                         "message": "Auth Failed"
                     }
-
+		    
             HTTP Code: 200
             Reason: authentication success
             Example: 
+	    
                     {
                         "message": "Auth Successful",
                         "token": "auth_token"
@@ -130,6 +137,7 @@
             HTTP Code: 200
             Reason: Request OK Completed
             Example: 
+	    
                     {
                         "message": "Sucess"
                     }
@@ -137,13 +145,16 @@
             HTTP Code: 401
             Reason: authentication failure
             Example: 
+	    
                     {
                         "message": "Auth Failed"
                     }
+		    
     3.4 /setPreferences
 
             HTTP Code: 201 
             Reason: Created/success
+	    
             {
                 "message": "Preferences Changed",
                 "preferences": [
@@ -167,6 +178,7 @@
             HTTP Code: 500
             Reason: Server error
             Example:
+	    
             {
                 message: "error"
             }
